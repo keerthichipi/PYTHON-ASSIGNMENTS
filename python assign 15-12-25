@@ -1,0 +1,32 @@
+PYTHON MATCH CASE 
+The match statement is used to perform different actions based on  different conditions
+Instead of writting many if and if else statement used..., we can use match statement.
+The match statement selects one of many code blocks to be excuted.
+match expression:
+  case x:
+    code block
+  case y:
+    code block
+  case z:
+    code block
+This is how its works:
+The match expression is evaluated onces
+The value of expression is compared with the values of each case.
+If there is a match ,the  associate block of code is excuted.
+day = 4
+match day:
+  case 1:
+    print("Monday")
+  case 2:
+    print("Tuesday")
+  case 3:
+    print("Wednesday")
+  case 4:
+    print("Thursday")
+  case 5:
+    print("Friday")
+  case 6:
+    print("Saturday")
+  case 7:
+    print("Sunday")
+  
